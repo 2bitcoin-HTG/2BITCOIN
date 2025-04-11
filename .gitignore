@@ -1,32 +1,87 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled object files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
+*.lo
+*.la
+*.al
+*.libs
 *.dylib
+*.so
+*.a
+*.exe
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Compiled source
+*.class
+*.pyc
+*.pyo
+*.pdb
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Backup files and logs
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
 
-# Executables
-*.exe
-*.out
-*.app
+# IDE and Editor-specific files
+.idea/
+.vscode/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Build and dependency directories
+/build/
+/out/
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+depcomp
+compile
+libtool
+ltmain.sh
+
+# Generated files
+*.gcda
+*.gcno
+*.gcov
+*.gch
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Wallet and node data
+*.dat
+/debug.log
+/db.log
+/peers.dat
+/banlist.dat
+/wallet.dat
+/blocks/
+/chainstate/
+/database/
+
+# Others
+tags
+TAGS
+*.gz
+*.zip
+*.tar
+*.tgz
+*.7z
+*.xz
+*.bz2
+*.lz
+*.zstd
+
+# Ignore files created by testing tools
+/test-results/
+coverage/
+lcov-report/
